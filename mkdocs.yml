@@ -23,7 +23,7 @@ plugins:
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
-          # execute: True
+        #   execute: True
           
 markdown_extensions:
     - attr_list
@@ -46,3 +46,7 @@ nav:
     - Report Issues: https://github.com/chebil med/geodemoch/issues
     - API Reference:
           - geodemoch module: geodemoch.md
+    - Notebooks:
+        - NOTEBOOKS/MAP.ipynb
+        - NOTEBOOKS/folium.ipynb
+
